@@ -39,6 +39,7 @@ public class Estudiante extends Persona{
 
     @Override
     public String toString() {
-        return super.toString() + "\nAño de ingreso: " + añoIngreso + "\nCarrera: " + carrera +"\nCuota mensual: " + cuotaMensual;
+        return super.toString() + "\nAño de ingreso: " + añoIngreso + "\nCarrera: " + carrera +"\nCuota mensual: " + cuotaMensual + "\n\n";
     }
+
 }

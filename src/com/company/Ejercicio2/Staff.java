@@ -34,6 +34,6 @@ public class Staff extends Persona{
 
     @Override
     public String toString() {
-        return super.toString() + "\nSsalario: " + salario + "Turno: " + turno;
+        return super.toString() + "\nSalario: " + salario + "\nTurno: " + turno + "\n\n";
     }
 }
