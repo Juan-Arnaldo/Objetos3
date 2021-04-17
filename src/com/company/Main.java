@@ -4,10 +4,45 @@ import com.company.Ejercicio2.Estudiante;
 import com.company.Ejercicio2.Persona;
 import com.company.Ejercicio2.Staff;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int opc = 0;
 
+        do{
+
+            System.out.println("1. Ejercicio 1");
+            System.out.println("2. Ejercicio 2");
+            System.out.println("3. Ejercicio 3");
+            System.out.println("4. Ejercicio 4");
+            System.out.println("\n\t0. Para salir");
+            System.out.println("Ingrese la opcion que quiera:");
+            opc = sc.nextInt();
+
+            switch (opc){
+                case 1:
+                    break;
+                case 2:
+                    ejer2();
+                    break;
+                case 3:
+                    break;
+                case 0:
+                    System.out.println("Saliendo...");
+                    break;
+                default:
+                    System.out.println("La opcion ingresada es incorrecta...");
+                    break;
+            }
+
+        }while(opc != 0);
+
+    }
+
+    public static void ejer2(){
         Persona[] arrayList = new Persona[8];
         double  total = 0;
 
@@ -38,6 +73,7 @@ public class Main {
         }
 
         System.out.println("\nTotal de ingresos por la cuota mensula: " + total);
-
     }
 }
+
+
