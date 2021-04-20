@@ -20,7 +20,7 @@ public class Main {
 		System.out.println("------------Circulo:----------");
 		System.out.println(circ.toString());
 
-		Cuadrado cuad = new Cuadrado("naranja",10,10);
+		Cuadrado cuad = new Cuadrado("naranja",10);
 		System.out.println("------------Cuadrado:----------");
 		System.out.println(cuad.toString());
 
@@ -29,7 +29,7 @@ public class Main {
 		System.out.println("------------Cilindro:----------");
 		System.out.println(cilin.toString());
 
-		Cilindro cilin2 = new Cilindro("Rojo",5,15);
+		Cilindro cilin2 = new Cilindro(5,15);
 		System.out.println("------------Cilindro 2:----------");
 		System.out.println(cilin2.toString());
 

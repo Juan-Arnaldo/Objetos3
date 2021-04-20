@@ -8,6 +8,11 @@ public class Cilindro extends Circulo1 {
         this.altura=altura;
     }
 
+    public Cilindro(float radio, double altura) {
+        super(radio);
+        this.altura=altura;
+    }
+
     public double getVolumen(){
         return Math.PI*Math.pow(super.getRadio(),2)*altura;
     }
