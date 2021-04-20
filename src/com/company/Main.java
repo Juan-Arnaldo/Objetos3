@@ -15,14 +15,13 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int opc = 0;
+        int opc;
 
         do{
 
             System.out.println("1. Ejercicio 1");
             System.out.println("2. Ejercicio 2");
             System.out.println("3. Ejercicio 3");
-            System.out.println("0. Salir...");
             System.out.println("\n\t0. Para salir");
             System.out.println("Ingrese la opcion que quiera:");
             opc = sc.nextInt();
@@ -84,6 +83,7 @@ public class Main {
     
     public static void ejer1(){
         Circulo1 circul1 = new Circulo1("verde",10);
+
         Cilindro cilin = new Cilindro("algo",4,10);
         System.out.println("------------Cilindro:----------");
         System.out.println(cilin.toString());
@@ -111,9 +111,6 @@ public class Main {
 		System.out.println("------------Cuadrado:----------");
 		System.out.println(cuad.toString());
     }
-
-
-
 }
 
 
