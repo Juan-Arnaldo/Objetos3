@@ -40,6 +40,6 @@ public class Circulo1 {
         return
                         "\nRadio = " + radio +
                         "\nColor = " + color +
-                        "\nArea = " + getArea();
+                        "\nArea = " + getArea() + "\n";
     }
 }

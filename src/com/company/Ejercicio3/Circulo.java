@@ -23,6 +23,6 @@ public class Circulo extends Figura{
         return  super.toString() +
                 "\nRadio = " + radio +
                 "\nArea = " + getArea() +
-                "\nPerimetro = " + getPerimetro();
+                "\nPerimetro = " + getPerimetro() + "\n";
     }
 }

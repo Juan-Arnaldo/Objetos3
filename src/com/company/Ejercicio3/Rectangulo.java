@@ -35,6 +35,6 @@ public class Rectangulo extends Figura {
                 "\nLargo = " + largo +
                 "\nAncho = " + ancho +
                 "\nArea = " + getArea() +
-                "\nPerimetro = " + getPerimetro();
+                "\nPerimetro = " + getPerimetro() + "\n";
     }
 }

@@ -28,6 +28,6 @@ public class Cilindro extends Circulo1 {
 
     public String toString() {
 
-        return "Cilindro: "+super.toString()+" \nAltura = "+getAltura();
+        return "Cilindro: "+super.toString()+" \nAltura = "+getAltura() + "\n";
     }
 }
