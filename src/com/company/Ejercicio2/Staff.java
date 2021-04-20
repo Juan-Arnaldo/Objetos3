@@ -26,11 +26,7 @@ public class Staff extends Persona{
         this.turno = turno;
     }
 
-    public double salarioAnual(Estudiante e){
-        double total = 0;
-        total += e.getCuotaMensual();
-        return total;
-    }
+    //public double salarioAnual()
 
     @Override
     public String toString() {
