@@ -10,6 +10,10 @@ public class Circulo1 {
         this.radio=radio;
     }
 
+    public Circulo1(float radio) {
+        this.radio=radio;
+    }
+
     public double getArea() {
         return Math.PI*(Math.pow(this.radio,2));
     }

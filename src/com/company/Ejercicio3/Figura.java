@@ -7,6 +7,9 @@ public abstract class Figura {
     public Figura(String color) {
         this.color = color;
     }
+    public Figura(){
+
+    }
 
     abstract double getPerimetro();
 

@@ -1,19 +1,27 @@
 package com.company.Ejercicio3;
 
-public class Cuadrado extends Rectangulo{
+public class Cuadrado extends Figura{
+    private double lado;
 
-    public Cuadrado(String color, double ancho,double largo){
-        super(color,ancho,largo);
+    public Cuadrado(String color, double lado){
+        super(color);
+        this.lado=lado;
 
     }
 
-
     public double getArea() {
-        return super.getAncho()*super.getLargo();
+        return Math.pow(lado,2);
     }
 
     public double getPerimetro() {
-        return super.getLargo()*2 + super.getAncho() *2;
+        return lado*4;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nLado = " + lado +
+                "\nArea = " + getArea() +
+                "\nPerimetro = " + getPerimetro();
+    }
 }
