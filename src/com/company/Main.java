@@ -1,10 +1,14 @@
-package com.company;
-
-import com.company.Ejercicio2.Estudiante;
-import com.company.Ejercicio2.Persona;
-import com.company.Ejercicio2.Staff;
 
 import java.util.Scanner;
+
+import Ejercicio1.Cilindro;
+import Ejercicio1.Circulo1;
+import Ejercicio2.Estudiante;
+import Ejercicio2.Persona;
+import Ejercicio2.Staff;
+import Ejercicio3.Circulo;
+import Ejercicio3.Cuadrado;
+import Ejercicio3.Rectangulo;
 
 public class Main {
 
@@ -64,16 +68,49 @@ public class Main {
         arrayList[5] = s2;
         arrayList[6] = s3;
         arrayList[7] = s4;
-
+        
         for(Persona p : arrayList){
             System.out.println(p.toString());
             if(p instanceof Estudiante){
                 total += ((Estudiante) p).getCuotaMensual();
             }
         }
-
+        
         System.out.println("\nTotal de ingresos por la cuota mensula: " + total);
     }
+    
+    public static void ejer1(){
+        Circulo1 circul1 = new Circulo1("verde",10);
+        Cilindro cilin = new Cilindro("algo",4,10);
+        System.out.println("------------Cilindro:----------");
+        System.out.println(cilin.toString());
+    
+        Cilindro cilin2 = new Cilindro("Rojo",5,15);
+        System.out.println("------------Cilindro 2:----------");
+        System.out.println(cilin2.toString());
+
+    }
+
+    public static void ejer3(){
+
+	    Rectangulo rect = new Rectangulo("amarillo",15,20);
+	    rect.getPerimetro();
+	    rect.getArea();
+	    System.out.println("------------Rectangulo:----------");
+		System.out.println(rect.toString());
+		Circulo circ = new Circulo("verde",4);
+		circ.getArea();
+		circ.getPerimetro();
+		System.out.println("------------Circulo:----------");
+		System.out.println(circ.toString());
+
+		Cuadrado cuad = new Cuadrado("naranja",10,10);
+		System.out.println("------------Cuadrado:----------");
+		System.out.println(cuad.toString());
+    }
+
+
+
 }
 
 
