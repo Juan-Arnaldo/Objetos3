@@ -1,4 +1,4 @@
-package Ejercicio3;
+package com.company.Ejercicio3;
 
 public class Rectangulo extends Figura {
     private double largo;
@@ -35,6 +35,6 @@ public class Rectangulo extends Figura {
                 "\nLargo = " + largo +
                 "\nAncho = " + ancho +
                 "\nArea = " + getArea() +
-                "\nPerimetro = " + getPerimetro();
+                "\nPerimetro = " + getPerimetro() + "\n";
     }
 }

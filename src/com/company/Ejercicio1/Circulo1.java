@@ -1,4 +1,4 @@
-package Ejercicio1;
+package com.company.Ejercicio1;
 
 public class Circulo1 {
     private double radio=1;
@@ -36,6 +36,6 @@ public class Circulo1 {
         return
                         "\nRadio = " + radio +
                         "\nColor = " + color +
-                        "\nArea = " + getArea();
+                        "\nArea = " + getArea() + "\n";
     }
 }

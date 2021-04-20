@@ -1,4 +1,4 @@
-package Ejercicio1;
+package com.company.Ejercicio1;
 
 public class Cilindro extends Circulo1 {
     private double altura=1;
@@ -23,6 +23,6 @@ public class Cilindro extends Circulo1 {
 
     public String toString() {
 
-        return "Cilindro: "+super.toString()+" \nAltura = "+getAltura();
+        return "Cilindro: "+super.toString()+" \nAltura = "+getAltura() + "\n";
     }
 }

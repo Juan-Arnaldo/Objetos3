@@ -1,14 +1,15 @@
+package com.company;
+
+import com.company.Ejercicio1.Cilindro;
+import com.company.Ejercicio1.Circulo1;
+import com.company.Ejercicio2.Estudiante;
+import com.company.Ejercicio2.Persona;
+import com.company.Ejercicio2.Staff;
+import com.company.Ejercicio3.Circulo;
+import com.company.Ejercicio3.Cuadrado;
+import com.company.Ejercicio3.Rectangulo;
 
 import java.util.Scanner;
-
-import Ejercicio1.Cilindro;
-import Ejercicio1.Circulo1;
-import Ejercicio2.Estudiante;
-import Ejercicio2.Persona;
-import Ejercicio2.Staff;
-import Ejercicio3.Circulo;
-import Ejercicio3.Cuadrado;
-import Ejercicio3.Rectangulo;
 
 public class Main {
 
@@ -21,18 +22,20 @@ public class Main {
             System.out.println("1. Ejercicio 1");
             System.out.println("2. Ejercicio 2");
             System.out.println("3. Ejercicio 3");
-            System.out.println("4. Ejercicio 4");
+            System.out.println("0. Salir...");
             System.out.println("\n\t0. Para salir");
             System.out.println("Ingrese la opcion que quiera:");
             opc = sc.nextInt();
 
             switch (opc){
                 case 1:
+                    ejer1();
                     break;
                 case 2:
                     ejer2();
                     break;
                 case 3:
+                    ejer3();
                     break;
                 case 0:
                     System.out.println("Saliendo...");

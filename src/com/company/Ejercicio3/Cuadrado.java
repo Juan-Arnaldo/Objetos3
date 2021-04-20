@@ -1,4 +1,4 @@
-package Ejercicio3;
+package com.company.Ejercicio3;
 
 public class Cuadrado extends Rectangulo{
 

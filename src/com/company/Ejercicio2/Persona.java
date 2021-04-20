@@ -1,4 +1,4 @@
-package Ejercicio2;
+package com.company.Ejercicio2;
 
 public class Persona {
     private String dni;

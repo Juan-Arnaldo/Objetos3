@@ -1,4 +1,4 @@
-package Ejercicio3;
+package com.company.Ejercicio3;
 
 public class Circulo extends Figura{
     private double radio;
@@ -23,6 +23,6 @@ public class Circulo extends Figura{
         return  super.toString() +
                 "\nRadio = " + radio +
                 "\nArea = " + getArea() +
-                "\nPerimetro = " + getPerimetro();
+                "\nPerimetro = " + getPerimetro() + "\n";
     }
 }
