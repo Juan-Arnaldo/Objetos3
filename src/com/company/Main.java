@@ -43,9 +43,7 @@ public class Main {
                     System.out.println("La opcion ingresada es incorrecta...");
                     break;
             }
-
         }while(opc != 0);
-
     }
 
     public static void ejer2(){
